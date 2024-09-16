@@ -1,0 +1,7 @@
+33 hu ma 33 ma hu huma
+
+Word Count:
+33: 2
+hu: 2
+ma: 2
+huma: 1

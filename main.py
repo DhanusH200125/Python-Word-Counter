@@ -26,4 +26,3 @@ def split_file(input_file):
 input_file = "paragraphs.txt"
 split_file(input_file)
 
-#

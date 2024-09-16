@@ -1,0 +1,8 @@
+22 adi ad a 22 zz adi
+
+Word Count:
+22: 2
+adi: 2
+ad: 1
+a: 1
+zz: 1

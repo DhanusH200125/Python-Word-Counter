@@ -1,0 +1,7 @@
+11 11 dan da dha dan da
+
+Word Count:
+11: 2
+dan: 2
+da: 2
+dha: 1
