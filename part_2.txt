@@ -1,8 +1,22 @@
-22 adi ad a 22 zz adi
+frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible.
 
 Word Count:
-22: 2
-adi: 2
-ad: 1
-a: 1
-zz: 1
+as: 2
+to: 2
+the: 2
+it: 2
+frustrating: 1
+he: 1
+began: 1
+search: 1
+internet: 1
+find: 1
+article: 1
+wasn: 1
+t: 1
+if: 1
+was: 1
+something: 1
+that: 1
+seemed: 1
+impossible: 1

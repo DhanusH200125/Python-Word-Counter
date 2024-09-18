@@ -29,7 +29,14 @@ def count_words(filename):
         for word, count in sorted(word_counts.items(), key=lambda x: x[1], reverse=True):
             file.write(f"{word}: {count}\n")
 
-    return filename
+    return word_counts
+
+# Function to merge multiple word count dictionaries
+def merge_dicts(dict_list):
+    final_counts = Counter()
+    for d in dict_list:
+        final_counts.update(d)
+    return final_counts
 
 
 # Main function to split the file and process word counting with multiprocessing
@@ -50,8 +57,13 @@ def split_file_and_count_words(input_file, num_processes=None):
         filenames = pool.map(write_paragraph, enumerate(paragraphs))
 
         # Step 4: Count words and append word counts in each file
-        pool.map(count_words, filenames)
+        word_count_list = pool.map(count_words, filenames)
 
+    final_word_counts = merge_dicts(word_count_list)
+
+    print("\nAggregated Word Count: ")
+    for word, count in sorted(final_word_counts.items(), key=lambda x: x[1], reverse= True):
+        print(f"{word}: {count}")
     print(f"\nFinished processing {len(paragraphs)} files.")
 
     # Optional: Clean up the temporary files (comment this if you want to keep the files)

@@ -1,7 +1,16 @@
-33 hu ma 33 ma hu huma
+Yet she insisted on always seeing the source whenever he stated a fact.
 
 Word Count:
-33: 2
-hu: 2
-ma: 2
-huma: 1
+yet: 1
+she: 1
+insisted: 1
+on: 1
+always: 1
+seeing: 1
+the: 1
+source: 1
+whenever: 1
+he: 1
+stated: 1
+a: 1
+fact: 1

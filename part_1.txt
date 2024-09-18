@@ -1,7 +1,23 @@
-11 11 dan da dha dan da
+He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite
 
 Word Count:
-11: 2
-dan: 2
-da: 2
-dha: 1
+he: 4
+t: 2
+had: 2
+was: 2
+that: 2
+couldn: 1
+remember: 1
+exactly: 1
+where: 1
+read: 1
+it: 1
+but: 1
+sure: 1
+the: 1
+fact: 1
+she: 1
+didn: 1
+believe: 1
+him: 1
+quite: 1
